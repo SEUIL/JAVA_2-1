@@ -3,9 +3,27 @@
   <component name="NewModuleRootManager" inherit-compiler-output="true">
     <exclude-output />
     <content url="file://$MODULE_DIR$">
-      <sourceFolder url="file://$MODULE_DIR$/src" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/src" isTestSource="false" packagePrefix="easyjava" />
     </content>
     <orderEntry type="inheritedJdk" />
     <orderEntry type="sourceFolder" forTests="false" />
+    <orderEntry type="module" module-name="chap13" />
+    <orderEntry type="module" module-name="chap02" />
+    <orderEntry type="module" module-name="chap03" />
+    <orderEntry type="module" module-name="chap06" />
+    <orderEntry type="module" module-name="chap18" />
+    <orderEntry type="module" module-name="chap12" />
+    <orderEntry type="module" module-name="chap07" />
+    <orderEntry type="module" module-name="chap15" />
+    <orderEntry type="module" module-name="chap04" />
+    <orderEntry type="module" module-name="chap09" />
+    <orderEntry type="module" module-name="chap11" />
+    <orderEntry type="module" module-name="chap05" />
+    <orderEntry type="module" module-name="chap08" />
+    <orderEntry type="module" module-name="chap01" />
+    <orderEntry type="module" module-name="chap16" />
+    <orderEntry type="module" module-name="chap14" />
+    <orderEntry type="module" module-name="chap10" />
+    <orderEntry type="module" module-name="chap17" />
   </component>
 </module>
