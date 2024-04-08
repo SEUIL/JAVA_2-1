@@ -9,7 +9,8 @@ public class quiz6_2_007 {
     //2133007
     //황스일
     public static void main(String[] args) {
-        Person[] person = { new Person("길동이",22), new Student("황진이",23,100),
+        Person[] person = { new Person("길동이",22),
+                new Student("황진이",23,100),
                 new ForeignStudent("Amy",30,200,"U.S.A") };
 
         for (Person s : person) {
