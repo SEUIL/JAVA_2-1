@@ -1,4 +1,4 @@
-package easyjava.easyjava.chap06.src.sec08;
+package sec08;
 
 public class Student extends Person {
 	int number = 7;

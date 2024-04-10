@@ -1,4 +1,4 @@
-package easyjava.easyjava.chap06.src.sec08;
+package sec08;
 
 public class Person {
 	String name = "사람";
