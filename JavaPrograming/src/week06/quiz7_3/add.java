@@ -1,5 +1,7 @@
-package easyjava.week06.quiz7_3.add;
+package easyjava.week06.quiz7_3;
 
+//2133007
+//황스일
 abstract class Calc{
     protected int a,b;
     public void setValue(int a,int b){
@@ -13,7 +15,6 @@ class Add extends Calc{
         return a+b;
     }
 }
-
 class Mul extends Calc{
     public int calculate(){
         return a*b;

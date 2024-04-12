@@ -1,4 +1,4 @@
-package easyjava.week06.quiz7_3;
+package easyjava.week06.quiz7_3.downgrade;
 
 class Add {
     private int a, b;

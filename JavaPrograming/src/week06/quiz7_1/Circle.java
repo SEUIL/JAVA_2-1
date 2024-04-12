@@ -1,5 +1,6 @@
 package easyjava.week06.quiz7_1;
-
+//2133007
+//황스일
 class Circle extends Shape {
 	int radius;
 

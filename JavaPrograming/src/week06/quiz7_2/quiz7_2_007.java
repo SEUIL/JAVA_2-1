@@ -1,5 +1,7 @@
 package easyjava.week06.quiz7_2;
 
+//2133007
+//황스일
 public class quiz7_2_007 {
     public static void main(String[] args) {
         GoodCalc c = new GoodCalc();

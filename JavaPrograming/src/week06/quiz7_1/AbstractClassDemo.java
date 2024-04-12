@@ -1,5 +1,7 @@
 package easyjava.week06.quiz7_1;
 
+//2133007
+//황스일
 public class AbstractClassDemo {
 	public static void main(String[] args) {
 		// Shape s = new Shape();

@@ -1,5 +1,6 @@
 package easyjava.week06.quiz7_3_2;
-
+//2133007
+//황스일
 abstract class Calc{
     protected int a,b;
     public void setValue(int a,int b){
