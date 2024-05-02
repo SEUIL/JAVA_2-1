@@ -9,14 +9,16 @@ class Keyboard {
     String name;
     public Keyboard(String name) {
         this.name = name; }
-    public boolean equals(Object obj) { //메서드 오버라이딩,업캐스팅
-        if (obj instanceof Keyboard) {
-            Keyboard k = (Keyboard) obj;
-            if (name.equals(k.name)){
-                return true;
+    public boolean equals(Object obj) { // equals 메서드를 재정의합니다. Object 클래스의 equals를 오버라이딩합니다.
+        if (obj instanceof Keyboard) { // 입력된 객체가 Keyboard 클래스의 인스턴스인지 확인합니다.
+            Keyboard k = (Keyboard) obj; // 입력된 객체를 Keyboard 타입으로 캐스팅합니다.
+            if (name.equals(k.name)){ // 현재 객체의 name 속성과 입력된 객체의 name 속성을 비교합니다.
+                return true; // 두 name 속성이 같다면 true를 반환합니다.
             }
         }
-        return false; }
+        return false; // 그렇지 않으면 false를 반환합니다.
+    }
+
     public String toString() {//???
         return "키보드입니다."; }
 }
