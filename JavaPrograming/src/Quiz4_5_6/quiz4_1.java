@@ -15,10 +15,13 @@ class Rectangle{
 
 public class quiz4_1 {
     public static void main(String[] args) {
-        Rectangle rectangle = new Rectangle();
         Scanner scanner = new Scanner(System.in);
+
+        Rectangle rectangle = new Rectangle();
+
         rectangle.width = scanner.nextInt();
         rectangle.height = scanner.nextInt();
+
         System.out.println("사각형의 면적은: " + rectangle.getArea());
         scanner.close();
     }

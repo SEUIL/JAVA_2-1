@@ -25,7 +25,6 @@ class Grade{
 
 public class quiz4_2 {
     public static void main(String[] args) {
-
         Scanner scanner = new Scanner(System.in);
 
         System.out.println("3과목 순서대로 입력");
