@@ -9,13 +9,13 @@ public class quiz01 {
 }
 
 class Triangle{
-    double base;
+    double base; //
     double height;
     Triangle(double base, double height){
         this.base = base;
         this.height = height;
-    }
+    } // 삼각형의 밑변과 높이를 초기화하는 생성자
     double findArea(){
         return (base * height)/2;
-    }
+    } // 삼각형의 넓이를 계산하여 반환하는 메소드
 }

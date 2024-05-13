@@ -18,11 +18,11 @@ class Triangle{
     Triangle(double base, double height){
         this.base = base;
         this.height = height;
-    }
+    } // 삼각형 생성자: 밑변과 높이를 인자로 받아 초기화
     double findArea(){
         return (base * height)/2;
-    }
+    } // 삼각형의 면적을 계산하는 메서드
     boolean isSameArea(Triangle k){
         return this.findArea() == k.findArea();
-    }
+    } // 다른 삼각형과 면적을 비교하는 메서드
 }
