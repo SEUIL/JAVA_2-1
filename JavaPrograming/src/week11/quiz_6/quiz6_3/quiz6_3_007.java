@@ -9,26 +9,17 @@ interface Printable {
     void print();
 }
 
-class NegativeImpl implements Negative {
-    @Override
-    public int neg(int x) {
+public class quiz6_3_007 implements Negative,Printable{
+    public int neg(int x){
         return -x;
     }
-}
-
-class PrintableImpl implements Printable {
-    @Override
-    public void print() {
-        System.out.println("안녕!");
+    public void print(){
+        System.out.println("안녕");
     }
-}
-
-public class quiz6_3_007 {
     public static void main(String[] args) {
-        Negative n = new NegativeImpl();
-        System.out.println(n.neg(10));
 
-        Printable p = new PrintableImpl();
-        p.print();
+        quiz6_3_007 q = new quiz6_3_007();
+        System.out.println(q.neg(10));
+        q.print();
     }
 }
