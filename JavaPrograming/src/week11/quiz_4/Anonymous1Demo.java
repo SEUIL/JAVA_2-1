@@ -1,12 +1,15 @@
 package easyjava.week11.quiz_4;
 
-public class Anonymous1Demo { //익명 멤버 중첩 클래스
+// 익명 멤버 중첩 클래스 데모
+public class Anonymous1Demo {
+	// Bird 클래스를 상속받는 익명 클래스
 	Bird e = new Bird() {
-	//생성자의 이름을 부모 클래스 이름으로 대신하고 본체를 구현하는 익명 클래스
+		// Bird 클래스의 move 메서드를 재정의
 		public void move() {
 			System.out.println("독수리가 난다~~~.");
 		}
 
+		// 익명 클래스에 새로운 메서드 추가
 		void sound() {
 			System.out.println("휘익~~~.");
 		}
@@ -14,8 +17,7 @@ public class Anonymous1Demo { //익명 멤버 중첩 클래스
 
 	public static void main(String[] args) {
 		Anonymous1Demo a = new Anonymous1Demo();
-		a.e.move();
-//		a.e.sound();
-		//a.e가 부모 클래스이므로 자식 클래스의 sound()를 호출할 수 없다.
+		a.e.move(); // 익명 클래스의 move 메서드 호출
+//        a.e.sound(); // 컴파일 에러: a.e는 부모 클래스 타입이므로 자식 클래스의 sound() 호출 불가
 	}
 }
