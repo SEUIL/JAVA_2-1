@@ -2,7 +2,7 @@ package easyjava.week12.quiz_1_1;
 
 import java.util.Arrays;
 import java.util.Comparator;
-
+//Comparator 인터페이스과 익명 구현 객체
 // 사각형을 나타내는 Rectangle 클래스
 class Rectangle {
     private int width, height; // 사각형의 폭과 높이를 저장하는 변수
@@ -37,6 +37,7 @@ public class quiz_1_1_007 {
 
         // 면적을 기준으로 Rectangle 배열을 정렬
         Arrays.sort(rectangles, new Comparator<Rectangle>() {
+            // Comparator 인터페이스를 익명 클래스 형태로 구현하여 면적 비교 로직 제공
             public int compare(Rectangle first, Rectangle second) {
                 return first.findArea() - second.findArea(); // 면적 비교
             }
