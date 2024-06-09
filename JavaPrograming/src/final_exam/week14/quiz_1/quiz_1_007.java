@@ -1,4 +1,4 @@
-package easyjava.week14.quiz_1;
+package easyjava.final_exam.week14.quiz_1;
 
 import java.util.List;
 import java.util.stream.Stream;
