@@ -33,7 +33,11 @@ class Rectangle {
 public class quiz_1_1_007 {
     public static void main(String[] args) {
         // Rectangle 객체 배열을 생성 및 초기화
-        Rectangle[] rectangles = {new Rectangle(3, 5), new Rectangle(2, 10), new Rectangle(5, 5)};
+        Rectangle[] rectangles = {
+                new Rectangle(3, 5),
+                new Rectangle(2, 10),
+                new Rectangle(5, 5)
+        };
 
         // 면적을 기준으로 Rectangle 배열을 정렬
         Arrays.sort(rectangles, new Comparator<Rectangle>() {

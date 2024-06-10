@@ -7,6 +7,7 @@ public class quiz_6_007 {
     public static void main(String[] args) {
         // 문자열만 삽입가능한 ArrayList 컬렉션 생성
         ArrayList<String> a = new ArrayList<String>();
+
         // 키보드로부터 4개의 이름 입력받아 ArrayList에 삽입
         Scanner scanner = new Scanner(System.in);
         for (int i = 0; i < 4; i++) {
@@ -14,12 +15,14 @@ public class quiz_6_007 {
             String s = scanner.next(); // 키보드로부터 이름 입력
             a.add(s); // ArrayList 컬렉션에 삽입
         }
+
         // ArrayList에 들어 있는 모든 이름 출력
         for (int i = 0; i < a.size(); i++) {
         // ArrayList의 i 번째 문자열 얻어오기
             String name = a.get(i);
             System.out.print(name + " ");
         }
+
         // 가장 긴 이름 출력
         int longestIndex = 0;
         for (int i = 1; i < a.size(); i++) {

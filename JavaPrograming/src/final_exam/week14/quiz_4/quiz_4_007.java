@@ -3,6 +3,9 @@ package easyjava.final_exam.week14.quiz_4;
 import java.util.HashMap;
 import java.util.Scanner;
 
+//HashMap에 객체 저장, 학생 정보 관리
+//id와 전화번호로 구성되는 Student 클래스를 만들고,
+// 이름을 ‘키’로 하고 Student 객체를 ‘값’으로 하는 해시맵을 작성하라.
 class Student { // 학생을 표현하는 클래스
     int id;
     String tel;
@@ -23,13 +26,15 @@ class Student { // 학생을 표현하는 클래스
 
 public class quiz_4_007 {
     public static void main(String[] args) {
-// 학생 이름과 Student 객체를 쌍으로 저장하는 HashMap 컬렉션 생성
+        // 학생 이름과 Student 객체를 쌍으로 저장하는 HashMap 컬렉션 생성
         HashMap<String, Student> map = new HashMap<String, Student>();
-// 3 명의 학생 저장
+
+        // 3 명의 학생 저장
         map.put("일길동", new Student(1, "010-111-1111"));
         map.put("이길동", new Student(2, "010-222-2222"));
         map.put("삼길동", new Student(3, "010 - 333 - 3333"));
-                Scanner scanner = new Scanner(System.in);
+
+        Scanner scanner = new Scanner(System.in);
         while (true) {
             System.out.print("검색할 이름?");
             String name = scanner.nextLine(); // 사용자로부터 이름 입력
