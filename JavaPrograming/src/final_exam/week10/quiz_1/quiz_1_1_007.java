@@ -3,7 +3,7 @@ package easyjava.final_exam.week10.quiz_1;
 public class quiz_1_1_007 {
     public static void main(String[] args) {
         int dividend = 10; // 나눗셈의 피제수(분자)를 10으로 초기화
-
+        
         try {
             // 명령행 인수를 정수로 변환하여 divisor 변수에 할당
             int divisor = Integer.parseInt(args[0]);

@@ -8,6 +8,7 @@ public class quiz_2_007 {
 
         try {
             // 사용자가 입력한 문자열을 읽고 square 메서드에 전달
+            System.out.print("입력 : ");
             square(in.nextLine());
         } catch (NumberFormatException e) {
             // 입력된 문자열이 정수로 변환할 수 없는 경우 예외 처리

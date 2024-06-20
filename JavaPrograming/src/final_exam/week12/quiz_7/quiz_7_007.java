@@ -22,7 +22,7 @@ public class quiz_7_007 {
                 System.out.println("종료합니다...");
                 break;
             }
-        // 해시맵에서 '키' eng의 '값' kor 검색
+            // 해시맵에서 '키' eng의 '값' kor 검색
             String kor = dic.get(eng);
             if (kor == null)
                 System.out.println(eng + "는 없는 단어 입니다.");
